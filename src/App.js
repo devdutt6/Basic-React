@@ -10,6 +10,10 @@
 // const { Blind } = require('./components/Bind')
 // const { Parent } = require('./components/Parent')
 // const { Condition } = require('./components/Condition')
+// const { NameList } = require('./components/NameList')
+// const { Stylesss } = require('./components/styles')
+// const { Form } = require('./components/Form')
+const { LifeCycleA } = require('./components/LifeCycleA')
 
 function App() {
   return (
@@ -25,17 +29,21 @@ function App() {
         <p>Can there be tow child?</p>
       </PropsGreet>
       <PropsGreet name='Yganik' heroName='All Lund'>
-        <p>dhgfjl dfklgn</p>
+      <p>dhgfjl dfklgn</p>
       </PropsGreet>
       <PropsHello age="21" username='gyo'>
-        <button>Bye Bye</button>
+      <button>Bye Bye</button>
       </PropsHello>
       <MyClass />
       <Counter />
-      <Click /> */}
+    <Click /> */}
       {/* <Blind /> */}
       {/* <Parent /> */}
       {/* <Condition /> */}
+      {/* <NameList /> */}
+    {/* <Stylesss /> */}
+    {/* <Form /> */}
+    <LifeCycleA />
 
     </div>
   );
