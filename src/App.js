@@ -13,7 +13,14 @@
 // const { NameList } = require('./components/NameList')
 // const { Stylesss } = require('./components/styles')
 // const { Form } = require('./components/Form')
-const { LifeCycleA } = require('./components/LifeCycleA')
+// const { LifeCycleA } = require('./components/LifeCycleA')
+// const { Fragment } = require('./components/Fragment')
+// const { ParentFragment } = require('./components/ParentFragment')
+// const { ParentPureComponent } = require('./components/ParentPureComponent')
+// const { ParentMemo } = require('./components/ParentMemo')
+// const { RefDemo } = require('./components/RefDemo')
+// const { ParentRefDemo } = require('./components/ParentRefDemo')
+// const { ParentForwardRef } = require('./components/ParentForwardRef')
 
 function App() {
   return (
@@ -43,7 +50,13 @@ function App() {
       {/* <NameList /> */}
     {/* <Stylesss /> */}
     {/* <Form /> */}
-    <LifeCycleA />
+    {/* <LifeCycleA /> */}
+    {/* <ParentFragment /> */}
+    {/* <ParentPureComponent /> */}
+    {/* <ParentMemo /> */}
+    {/* <RefDemo /> */}
+    {/* <ParentRefDemo /> */}
+    {/* <ParentForwardRef /> */}
 
     </div>
   );

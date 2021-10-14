@@ -1,5 +1,5 @@
 const React = require('react');
-const  {Component } = require('react');
+const  { Component } = require('react');
 
 export const PropsGreet = (props) => {
     console.log(props);
