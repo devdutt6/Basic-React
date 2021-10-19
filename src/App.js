@@ -21,6 +21,10 @@
 // const { RefDemo } = require('./components/RefDemo')
 // const { ParentRefDemo } = require('./components/ParentRefDemo')
 // const { ParentForwardRef } = require('./components/ParentForwardRef')
+// const { PortalDemo } = require('./components/PortalDemo')
+// const { Hero } = require('./components/Hero')
+// const { ErrorBoundry } = require('./components/ErrorBoundry')
+const { ClickCounter,HoverCounter } = require('./components/ClickCounter')
 
 function App() {
   return (
@@ -57,6 +61,18 @@ function App() {
     {/* <RefDemo /> */}
     {/* <ParentRefDemo /> */}
     {/* <ParentForwardRef /> */}
+    {/* <PortalDemo /> */}
+    {/* <ErrorBoundry>
+      <Hero heroName="SuperMan"/>
+    </ErrorBoundry>
+    <ErrorBoundry>
+      <Hero heroName="BatMan"/>
+    </ErrorBoundry>
+    <ErrorBoundry>
+      <Hero heroName="Joker"/>
+    </ErrorBoundry> */}
+    <ClickCounter />
+    <HoverCounter />
 
     </div>
   );
